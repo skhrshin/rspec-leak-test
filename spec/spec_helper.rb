@@ -14,7 +14,8 @@
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-require 'concurrent'
+require File.expand_path('../lib/resume_fiber_with_lock', File.dirname(__FILE__))
+#require_relative '../lib/resume_fiber_with_lock'
 
 class Work; end
 
